@@ -1,0 +1,146 @@
+/* universal styling */
+
+html {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: hsl(0, 0%, 28.63%);
+    width: 75vw;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: hsl(44.72, 93.81%, 44.31%);
+}
+
+h2 {
+    font-size: 2rem;
+    color: hsl(189.71, 43.04%, 69.02%);
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: hsl(194.38, 82.31%, 28.82%);
+}
+
+h4 {
+    font-size: 1.25rem;
+    color: hsl(190, 42.86%, 75.29%);
+}
+
+h5 {
+    font-size: 0.9rem;
+    color: hsl(194.25, 82.65%, 42.94%);
+}
+
+/* main */
+
+/* game display */
+
+.game-display {
+    min-width: 750px;
+}
+
+@media screen and (max-width: 1000px) {
+    .game-display {
+        min-width: 150px;
+    }
+}
+
+/* winner */
+
+.winner {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+/* choices and score */
+
+.choice-and-score-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+/* choices */
+
+.choices {
+    border-bottom: solid hsl(44.92, 94.09%, 39.8%) 2px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.player-container, .computer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* player choice */
+
+.player-choice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.15rem;
+}
+
+label {
+    font-size: 1.5rem;
+    color: hsl(189.71, 43.04%, 69.02%);
+}
+
+#dropdown {
+    border: solid hsl(189.71, 43.04%, 69.02%) 2.5px;
+    background-color: hsl(0, 0%, 28.63%);
+    color: hsl(44.72, 93.81%, 44.31%);
+    font-size: 1.25rem;
+    width: 7.5rem;
+    padding: 2px;
+    margin-top: 1.25rem;
+}
+
+#dropdown:focus {
+    border-color: hsl(44.72, 93.81%, 44.31%);
+    outline: none;
+}
+
+#dropdown:hover {
+    border-color: hsl(44.72, 93.81%, 44.31%);
+    background-color: hsl(0, 0%, 42.75%);
+}
+
+/* score */
+
+.scores {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.player-score, .computer-score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 21rem;
+}
+
+footer img {
+    height: 2rem;
+    width: auto;
+}

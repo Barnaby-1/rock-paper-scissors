@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./resources/main.css" type="text/css" rel="stylesheet">
+    <link href="./resources/styles.css" type="text/css" rel="stylesheet">
     <title>Rock, Paper, Scissors</title>
 </head>
 
@@ -24,15 +24,49 @@
 
     <main>
         <div class="game-display">
-            <div class="choices"></div>
-            <div class="player-choice"></div>
-            <div class="score"></div>
+            <div class="winner">
+                <h2>---</h2>
+            </div>
+            <div class="choices">
+                <div class="player-container">
+                    <h3>Player Choice</h3>
+                    <h2>p---</h2>
+                </div>
+                <div class="computer-container">
+                    <h3>Computer Choice</h3>
+                    <h2>c---</h2>
+                </div>               
+            </div>
+            <div class="choice-and-score-container">
+                <div class="player-choice">
+                    <label for="dropdown">Select rock, paper or scissors:</label>
+                    <select id="dropdown">
+                        <option value="Rock" selected>Rock</option>
+                        <option value="Paper">Paper</option>
+                        <option value="scissors">Scissors</option>
+                    </select>
+                </div>
+                <div class="scores">
+                    <div class="player-score">
+                        <h5>Player Score</h5>
+                        <h4>p---</h4>
+                    </div>
+                    <div class="computer-score">
+                        <h5>Computer Score</h5>
+                        <h4>c---</h4>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
     <!--footer-->
 
-    <footer></footer>
+    <footer>
+        <a href="https://github.com/Barnaby-1" target="_blank">
+            <img src="./resources/images/GitHub-Symbol-700x394-modified.png">
+        </a>
+    </footer>
 
     <script src="./main.js"></script>
 </body>
