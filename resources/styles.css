@@ -108,13 +108,14 @@ label {
 }
 
 #dropdown:focus {
-    border-color: hsl(44.72, 93.81%, 44.31%);
     outline: none;
 }
 
 #dropdown:hover {
     border-color: hsl(44.72, 93.81%, 44.31%);
     background-color: hsl(0, 0%, 42.75%);
+    box-shadow: 0.5px 0.5px;
+    cursor: pointer;
 }
 
 /* score */

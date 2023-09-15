@@ -14,5 +14,9 @@ userChoice.addEventListener('change', function () {
     if (selectedValue) {
         userChoiceOutput.textContent = selectedValue;
         computerChoiceOutput.textContent = computerChoice();
+    } else {
+        userChoiceOutput.textContent = '---';
+        computerChoiceOutput.textContent = '---';
+        
     }
 });
