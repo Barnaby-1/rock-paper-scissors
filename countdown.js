@@ -1,16 +1,25 @@
-let countDownValue = 5;
+let countdownValue = 5;
 
 const updateCountdown = () => {
-    const selectedValue = userChoice.value;
+    let selectedValue = userChoice.value;
     if (selectedValue) {
         const displayCountdown = document.getElementById('seconds');
-        displayCountdown.textContent = countDownValue;
-        countDownValue--;
-        if (countDownValue <= 0) {
-            countDownValue = 0;
+        displayCountdown.textContent = countdownValue;
+        countdownValue--;
+        userChoice.setAttribute('disabled', 'disabled');
+        if (countdownValue < 0) {
+            userChoice.removeAttribute('disabled');
+            clearInterval(intervalID);
+            selectedValue = null;
         }
     }
-    
 }
 
-setInterval(updateCountdown, 1000);
+userChoice.addEventListener('change', function () {
+    selectedValue = userChoice.value;
+    countdownValue = 5;
+    clearInterval(intervalID);
+    intervalID = setInterval(updateCountdown, 1000);
+});
+
+intervalID = setInterval(updateCountdown, 1000);
