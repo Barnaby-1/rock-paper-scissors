@@ -1,4 +1,5 @@
 let countdownValue = 5;
+let intervalID;
 
 const updateCountdown = () => {
     let selectedValue = userChoice.value;
@@ -10,7 +11,6 @@ const updateCountdown = () => {
         if (countdownValue < 0) {
             userChoice.removeAttribute('disabled');
             clearInterval(intervalID);
-            selectedValue = null;
         }
     }
 }
