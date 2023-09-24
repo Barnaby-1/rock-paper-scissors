@@ -1,1 +1,0 @@
-let countdownValue = 5;

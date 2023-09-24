@@ -97,6 +97,39 @@ label {
     color: hsl(189.71, 43.04%, 69.02%);
 }
 
+/* buttons */
+
+.button-container {
+    margin-top: 1rem;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.choice-button {
+    border: solid hsl(44.72, 93.81%, 44.31%) 2px;
+    background-color: hsl(194.38, 82.31%, 28.82%);
+    width: 100px;
+    height: 30px;
+    color: hsl(44.72, 93.81%, 44.31%);
+    font-size: 1.25rem;
+}
+
+.choice-button:hover {
+    border: solid hsl(44.72, 93.81%, 44.31%) 2px;
+    background-color: hsl(194.3, 82.51%, 35.88%);
+    width: 100px;
+    height: 30px;
+    color: hsl(44.72, 93.81%, 44.31%);
+    cursor: pointer;
+}
+
+.choice-button:active {
+    border-color: hsl(44.73, 93.37%, 35.49%);
+    background-color: hsl(194.38, 82.31%, 28.82%);
+}
+
 /* score */
 
 .scores {
