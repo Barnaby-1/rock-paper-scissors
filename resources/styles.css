@@ -52,14 +52,6 @@ h5 {
     }
 }
 
-/* countdown */
-
-.countdown {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
 /* winner */
 
 .winner {
@@ -103,26 +95,6 @@ h5 {
 label {
     font-size: 1.5rem;
     color: hsl(189.71, 43.04%, 69.02%);
-}
-
-#dropdown {
-    border: solid hsl(189.71, 43.04%, 69.02%) 2.5px;
-    background-color: hsl(0, 0%, 28.63%);
-    color: hsl(44.72, 93.81%, 44.31%);
-    font-size: 1.25rem;
-    width: 7.5rem;
-    padding: 2px;
-    margin-top: 1.25rem;
-}
-
-#dropdown:focus {
-    outline: none;
-}
-
-#dropdown:hover {
-    border-color: hsl(44.72, 93.81%, 44.31%);
-    background-color: hsl(0, 0%, 42.75%);
-    cursor: pointer;
 }
 
 /* score */
