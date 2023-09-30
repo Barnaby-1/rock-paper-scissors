@@ -144,10 +144,15 @@ label {
     align-items: center;
 }
 
+#screen-width-display {
+    text-align: center;
+}
+
 /* footer */
 
 footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     margin-top: 14.5rem;
