@@ -1,0 +1,26 @@
+/* iPhone SE */
+
+@media (max-width: 375px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .game-display {
+        margin-top: 1.5rem;
+    }
+    .choices h3 {
+        font-size: 1.05rem;
+    }
+    label {
+        font-size: 1.05rem;
+        text-align: center;
+    }
+    .scores {
+        text-align: center;
+    }
+    footer {
+        margin-top: 7rem;
+    }
+}
