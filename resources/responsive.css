@@ -56,3 +56,35 @@
         margin-top: 12.5rem;
     }
 }
+
+/* iPhone 12 Pro */
+
+@media (width: 390px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .game-display {
+        min-width: 350px;
+        margin-top: 1.5rem;
+    }
+    .choice-and-score-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .choices h3 {
+        font-size: 1.05rem;
+    }
+    label {
+        font-size: 1.15rem;
+        text-align: center;
+    }
+    .scores {
+        text-align: center;
+    }
+    footer {
+        margin-top: 10rem;
+    }
+}
