@@ -29,12 +29,13 @@
 
 @media (width: 414px) {
     h1 {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
     h2 {
         font-size: 1.5rem;
     }
     .game-display {
+        min-width: 350px;
         margin-top: 1.5rem;
     }
     .choice-and-score-container {
@@ -52,6 +53,6 @@
         text-align: center;
     }
     footer {
-        margin-top: 10rem;
+        margin-top: 12.5rem;
     }
 }
