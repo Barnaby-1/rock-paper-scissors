@@ -150,15 +150,21 @@ label {
 
 /* footer */
 
-footer {
+.footer-content {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    text-align: center;
-    margin-top: 14.5rem;
+    margin-top: 200px;
+}
+
+.github-image-container {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    height: 30px;
+    width: auto;
 }
 
 footer img {
-    height: 2rem;
-    width: auto;
+    height: 30px;
 }
