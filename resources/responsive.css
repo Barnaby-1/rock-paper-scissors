@@ -1,0 +1,136 @@
+@media (max-width: 1000px) {
+    label {
+        width: 250px;
+    }
+
+    .footer-content {
+        margin-top: 150px;
+    }
+}
+
+
+@media (max-width: 789px) {
+    .footer-content {
+        margin-top: 110px;
+    }
+}
+
+@media (max-width: 550px) {
+    .choice-and-score-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    header {
+        height: 130px;
+    }
+
+    header h1 {
+        position: relative;
+        top: -32.5px;
+    }
+
+    #winner {
+        margin-top: -50px;
+    }
+
+    .footer-content {
+        margin-top: 0;
+        position: relative;
+        bottom: 50px;
+        left: 260px;
+        width: 50px;
+    }
+}
+
+@media (max-width: 472px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 397px) {
+    header {
+        position: relative;
+        bottom: 20px;
+    }
+
+    header h1 {
+        position: static;
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    h5 {
+        font-size: 0.8rem;
+    }
+
+    .game-display {
+        position: relative;
+        bottom: 25px;
+    }
+
+    label {
+        font-size: 1.25rem;
+    }
+
+    .footer-content {
+        margin-top: 25px;
+        position: relative;
+        top: 50px;
+    }
+}
+
+@media (height: 667px) and (width: 375px) {
+    .game-display {
+        position: relative;
+        bottom: 60px;
+    }
+
+    #winner {
+        margin-top: 0;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .choices {
+        position: relative;
+        bottom: 30px;
+    }
+
+    .scores {
+        position: relative;
+        bottom: 50px;
+    }
+
+    .player-choice {
+        position: relative;
+        bottom: 60px;
+    }
+
+    #user-choice-output, #computer-choice-output {
+        position: relative;
+        bottom: 20px;
+    }
+
+    .choices {
+        height: 140px;
+    }
+
+    .footer-content {
+        margin-top: -215px;
+        position: relative;
+        right: 260px;
+    }
+}
